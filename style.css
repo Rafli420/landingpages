@@ -1,0 +1,72 @@
+/* Navbar */
+.navbar-brand {
+    font-family: viga;
+    font-size: 30px;
+
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    height: 300px;
+
+}
+
+.jumbotron .display-4 {
+    color: yellow;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 200;
+    font-family: viga;
+    font-size: 30px;
+}
+
+.jumbotron .lead {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    height: 640px;
+    width: -640px;
+    color: yellow;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 200;
+    font-family: viga;
+    font-size: 30px;
+
+.jumbotron .display-4 span {
+    font-weight: 500px;
+}
+
+.card .ard-img-top {
+    height: 500px;
+    width: 200px;
+
+}
+
+.card {
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    
+    
+}
+
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin: 10px;
+    }
+
+    .nav-link:hover::after {
+        content: ' ';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        background-image: url(bg.jpg);
+    }
